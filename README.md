@@ -63,7 +63,7 @@ family-meeting-app
 
 https://nextjs.org/docs/advanced-features/module-path-aliases
 
-tsconfig.json 内に baseUrl と Path Aliases を設定し、以下の絶対パスの形式で inport を行う。
+tsconfig.json 内に baseUrl と Path Aliases を設定し、以下の絶対パスの形式で import を行う。
 
 ```json
 {
@@ -88,3 +88,10 @@ import { Button } from "@/components/atoms/button";
 ```bash
 yarn lint
 ```
+
+## 参考サイト
+
+- https://foruful.com/share/88e39a79-1409-4374-a7ae-5eadc5e0349d/
+- https://foruful.com/share/5ea2890e-53f3-4676-bc84-576bb28fb3d7/
+- https://foruful.com/share/e5e5db5c-e7bc-411c-8768-542bdba79085/
+- https://foruful.com/share/105bef99-b16b-4261-a337-c8e0b557e609/
