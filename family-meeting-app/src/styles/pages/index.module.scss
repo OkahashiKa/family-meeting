@@ -1,12 +1,60 @@
-.background {
-  background-image: url("../../../public/images/30000941_m.jpg");
-  z-index: -1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+.title {
+  text-align: center;
 }
 
-// .image {
-//   object-fit: cover;
-// }
+.greeting {
+  margin-top: 200px;
+  text-align: center;
+  p {
+    margin: 0% 30% 0% 30%;
+  }
+}
+
+.details {
+  margin-top: 200px;
+  text-align: center;
+  .detailContents {
+    display: flex;
+    .map {
+      width: 50%;
+    }
+    .schedule {
+      width: 50%;
+      li {
+        text-align: center;
+        list-style: none;
+      }
+    }
+    iframe {
+      border: 0;
+    }
+  }
+}
+
+.profile {
+  margin-top: 200px;
+  text-align: center;
+  .profileContents {
+    display: flex;
+    justify-content: center;
+    .profileImage {
+      border-radius: 50%;
+      padding: 10px;
+    }
+    div {
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px 2px #bbb;
+    }
+  }
+}
+
+.familyProfile {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.contact {
+  margin-top: 200px;
+  text-align: center;
+}
